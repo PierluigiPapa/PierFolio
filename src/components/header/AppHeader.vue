@@ -1,5 +1,4 @@
 <script>
-
 export default {
     name: 'AppHeader',
 }
@@ -51,7 +50,7 @@ export default {
 @use "../../styles/partials/variables.scss" as *;
 
 nav {
-  font-family: "Poppins", sans-serif;
+  
   background-color: #525252;
 
   .nav-link,
@@ -61,7 +60,7 @@ nav {
 
   .nav-link:hover,
   .navbar-brand:hover {
-    color: black;
+    color: lightgray;
   }
 }
 
