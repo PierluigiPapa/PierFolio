@@ -34,7 +34,7 @@ export default {
         <div class="col-md-6 d-flex justify-content-center top">
             <div>
                 <h1>Ciao, sono <span class="name">Pierluigi Papa</span></h1>
-                <h3 class="job">Front End Developer</h3>
+                <h3 class="job">Full Stack Web Developer</h3>
 
                 <div class="social-networks d-flex justify-content-start">
                     <a href="https://www.linkedin.com/in/pierluigipapa/" target="_blank" class="social-icon"><font-awesome-icon icon="fa-brands fa-linkedin-in"/></a>
@@ -42,7 +42,7 @@ export default {
                     <a href="mailto:pierluigipapa9@gmail.com" target="_blank" class="social-icon"><font-awesome-icon icon="fa-solid fa-envelope" /></a>
 
                     <button type="button" class="btn" @click="scaricaCV">
-                        <font-awesome-icon icon="fa-solid fa-download" class="download"/> SCARICA IL CV
+                        <font-awesome-icon icon="fa-solid fa-download" class="download"/> DOWNLOAD
                     </button>
                 </div>
 
