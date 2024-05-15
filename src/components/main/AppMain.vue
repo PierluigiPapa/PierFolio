@@ -1,24 +1,57 @@
 <script>
 export default {
-    name: 'AppMain',
+  name: 'AppMain',
+  mounted() {
+    setTimeout(() => {
+      const nameElement = document.querySelector('.name');
+      nameElement.classList.add('visible');
+    }, 1000);
+
+    setTimeout(() => {
+      const jobElement = document.querySelector('.job');
+      jobElement.classList.add('visible');
+    }, 2000);
+  },
+  methods: {
+    scaricaCV() {
+      const link = document.createElement('a');
+      link.href = '/Pierluigi_Papa_CV.pdf';
+      link.download = 'Pierluigi_Papa_CV.pdf';
+      link.target = '_blank';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  }
 }
 </script>
+
 
 <template>
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-6 d-flex justify-content-center mt-5">
+        <div class="col-md-6 d-flex justify-content-center top">
             <div>
-                <h1>Hello, I'm <span class="name">Pierluigi Papa</span></h1>
-                <h3>Ruolo</h3>
-                <span>Descrizione</span>
+                <h1>Ciao, sono <span class="name">Pierluigi Papa</span></h1>
+                <h3 class="job">Front End Developer</h3>
+
+                <div class="social-networks d-flex justify-content-start">
+                    <a href="https://www.linkedin.com/in/pierluigipapa/" target="_blank" class="social-icon"><font-awesome-icon icon="fa-brands fa-linkedin-in"/></a>
+                    <a href="https://github.com/PierluigiPapa" target="_blank" class="social-icon"><font-awesome-icon icon="fa-brands fa-github" /></a>
+                    <a href="mailto:pierluigipapa9@gmail.com" target="_blank" class="social-icon"><font-awesome-icon icon="fa-solid fa-envelope" /></a>
+
+                    <button type="button" class="btn" @click="scaricaCV">
+                        <font-awesome-icon icon="fa-solid fa-download" class="download"/> SCARICA IL CV
+                    </button>
+                </div>
+
             </div>
         </div>
-
-        <div class="col-md-6 d-flex justify-content-center mt-5">
+        
+        <div class="col-md-6 d-flex justify-content-center top">
             <div>
-                <h1>FOTO</h1>
+                <p>FOTO</p>
             </div>
         </div>
     </div>
@@ -26,18 +59,76 @@ export default {
 
 </template>
 
-
-
 <style lang="scss">
 @use "../../styles/partials/variables.scss" as *;
 
 .container-fluid {
     background-color: $gray;
     color: white;
-
+    
+    .top {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    
     .name {
         color: #1D70A2;
+        font-size: 50px;
         font-weight: bold;
+        opacity: 0;
+        transition: opacity 0.5s ease; 
+    }
+    
+    .name.visible,
+    .job.visible {
+        opacity: 1;
+    }
+    
+    .job {
+        font-size: 40px;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    
+    .social-networks {
+        margin-top: 20px;
+        
+        .social-icon {
+            color: white;
+            margin-right: 15px;
+            font-size: 30px;
+            
+            &:hover {
+                color: #2892D7;
+                transition: background-color 0.3s, color 0.3s, filter 0.3s;
+            }
+        }
+
+        .btn {
+            margin-left: 30px;
+            background-color: white;
+            border: 3px solid #1D70A2;
+            font-weight: 600;
+            color: #1D70A2;
+
+            &:hover {
+                background-color: #1D70A2;
+                border: 3px solid white;
+                font-weight: 600;
+                color: white;
+                transition: background-color 0.3s, color 0.3s, filter 0.3s;
+            }
+            
+            .download {
+                margin-right: 10px;
+                font-size: 20px;
+            }
+        }
+
     }
 }
 </style>

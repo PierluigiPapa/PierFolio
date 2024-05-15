@@ -9,7 +9,7 @@ export default {
     <div class="container-fluid">
       <!-- // SECTION LOGO_NAVBAR // -->
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">PierFolio</a>
+        <a class="navbar-brand" href="#">Pierluigi Papa</a>
       </div>
       <!-- // SECTION LOGO_NAVBAR // -->
 
@@ -60,6 +60,7 @@ nav {
   .nav-link:hover,
   .navbar-brand:hover {
     color: #2892D7;
+    transition: background-color 0.3s, color 0.3s, filter 0.3s;
   }
 }
 

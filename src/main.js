@@ -11,9 +11,11 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn, faGithub} from "@fortawesome/free-brands-svg-icons";
 
-library.add(faLinkedin);
+import { faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faLinkedinIn, faGithub, faEnvelope, faDownload);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
 
