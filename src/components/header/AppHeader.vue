@@ -50,8 +50,7 @@ export default {
 @use "../../styles/partials/variables.scss" as *;
 
 nav {
-  
-  background-color: #525252;
+  background-color: $gray;
 
   .nav-link,
   .navbar-brand {
