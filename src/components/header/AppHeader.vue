@@ -59,7 +59,7 @@ nav {
 
   .nav-link:hover,
   .navbar-brand:hover {
-    color: lightgray;
+    color: #2892D7;
   }
 }
 

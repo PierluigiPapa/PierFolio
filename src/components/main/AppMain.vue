@@ -12,7 +12,7 @@ export default {
             <div>
                 <h1>Hello, I'm <span class="name">Pierluigi Papa</span></h1>
                 <h3>Ruolo</h3>
-                <p>Descrizione</p>
+                <span>Descrizione</span>
             </div>
         </div>
 
