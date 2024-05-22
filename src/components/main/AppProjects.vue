@@ -9,7 +9,6 @@ export default defineComponent({
   components: {
     Carousel,
     Slide,
-    Navigation,
   },
   data () {
     return {
@@ -26,7 +25,7 @@ export default defineComponent({
           image: '../src/assets/images/Yu_Gi_Oh.png',
           title: 'Yu-Gi-Oh',
         },
-      ]
+      ],
     }
   }
 })
@@ -37,17 +36,14 @@ export default defineComponent({
     <h1 class="text-center text-light mt-5 fw-bold">Portfolio</h1>
   
     <div class="row">
-      <div class="col">
-        <Carousel :items-to-show="2.5" :wrap-around="true">
+      <div class="col mt-4 my-5">
+        <Carousel :items-to-show="2.5" :wrap-around="true" :autoplay="3000">
           <Slide v-for="(project, index) in projects" :key="index">
             <div class="carousel__item d-flex flex-column align-items-center">
               <img :src="project.image" :alt="project.title" class="img-fluid"/>
               <span class="project-title">{{ project.title }}</span>
             </div>
           </Slide>
-          <template #addons>
-            <Navigation />
-          </template>
         </Carousel>
       </div>
     </div>
