@@ -1,7 +1,6 @@
 // Import our custom CSS
 import './styles/general.scss'
 
-
 import { createApp } from 'vue'
 
 import App from './App.vue'
