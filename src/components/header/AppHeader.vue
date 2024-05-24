@@ -1,6 +1,9 @@
 <script>
+import { RouterLink } from 'vue-router';
+
+
 export default {
-    name: 'AppHeader',
+  name: 'AppHeader',
 }
 </script>
 
@@ -18,7 +21,11 @@ export default {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Chi sono</a>
+              <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
+            </li>
+
+            <li class="nav-item">
+              <router-link :to="{ name: 'chisono' }" class="nav-link">Chi sono</router-link>
             </li>
 
             <li class="nav-item">
@@ -44,8 +51,6 @@ export default {
   </nav>
 </template>
 
-
-
 <style lang="scss">
 @use "../../styles/partials/variables.scss" as *;
 
@@ -63,5 +68,4 @@ nav {
     transition: background-color 0.3s, color 0.3s, filter 0.3s;
   }
 }
-
 </style>
