@@ -31,7 +31,7 @@ export default {
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-6 d-flex justify-content-center top">
+        <div class="col-6 d-flex justify-content-center top">
             <div>
                 <h1>Ciao, sono <span class="name">Pierluigi Papa</span></h1>
                 <h3 class="job">Full Stack Web Developer</h3>
@@ -49,10 +49,8 @@ export default {
             </div>
         </div>
         
-        <div class="col-md-6 d-flex justify-content-center top">
-            <div>
-                <p>FOTO</p>
-            </div>
+        <div class="col-6 d-flex justify-content-center top">
+            <img src="@/assets/images/Squirtle.png" alt="">
         </div>
     </div>
 </div>
@@ -93,7 +91,7 @@ export default {
         opacity: 0;
         transition: opacity 0.5s ease;
     }
-    
+
     .social-networks {
         margin-top: 20px;
         
@@ -130,5 +128,25 @@ export default {
         }
 
     }
+
+    @keyframes flicker {
+        0% {
+            box-shadow: 0 0 10px 5px #1D70A2;
+        }
+        
+        50% {
+            box-shadow: none;
+        }
+        
+        100% {
+            box-shadow: 0 0 10px 5px #1D70A2;
+        }
+    }
+    
+    img {
+        width: 40%;
+        animation: flicker 1s infinite;
+    }
 }
+
 </style>
