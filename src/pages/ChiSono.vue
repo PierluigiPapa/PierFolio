@@ -55,7 +55,7 @@ export default {
             <span class="blue fw-bold fs-5">Vite</span>, <span class="blue fw-bold fs-5">SASS</span>, <span class="blue fw-bold fs-5">PHP</span>, 
             <span class="blue fw-bold fs-5">MySQL</span>, <span class="blue fw-bold fs-5">Laravel</span>, ma anche a livello <span class="blue fw-bold fs-5">professionale</span>, 
             in quanto la sua intensità, mi ha fatto comprendere cosa significa <span class="blue fw-bold fs-5">essere</span> un programmatore web, grazie anche agli 
-            <span class="blue fw-bold fs-5">esercizi</span>esercizi e ai <span class="blue fw-bold fs-5">progetti</span>, svolti 
+            <span class="blue fw-bold fs-5">esercizi</span> e ai <span class="blue fw-bold fs-5">progetti</span>, svolti 
             <span class="blue fw-bold fs-5">singolarmente</span> o <span class="blue fw-bold fs-5">in team</span>.
           </h6>
         </div>
