@@ -9,7 +9,7 @@ export default {
 
 <template>
   <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
+    <div class="container">
       <!-- // SECTION LOGO_NAVBAR // -->
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Pierluigi Papa</a>

@@ -6,7 +6,7 @@ export default {
 
 <template>
 <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
+    <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand fs-6">&copy; Pierluigi Papa</a>
         </div>

@@ -32,15 +32,15 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="container">
+  <div class="container-fluid gradient-bg">
     <h1 class="text-center text-light mt-5 fw-bold">Portfolio</h1>
   
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col mt-4 my-5">
         <Carousel :items-to-show="2.5" :wrap-around="true" :autoplay="3000">
           <Slide v-for="(project, index) in projects" :key="index">
             <div class="carousel__item d-flex flex-column align-items-center">
-              <img :src="project.image" :alt="project.title" class="img-fluid"/>
+              <img :src="project.image" :alt="project.title" class="img-fluid m-2"/>
               <span class="project-title">{{ project.title }}</span>
             </div>
           </Slide>
@@ -50,8 +50,16 @@ export default defineComponent({
   </div>
 </template>
 
+
+
 <style lang="scss">
 @use "../../styles/partials/variables.scss" as *;
+
+
+
+.gradient-bg {
+  background: linear-gradient(#1D70A2, #173753);
+}
 
 .carousel__item {
   position: relative;

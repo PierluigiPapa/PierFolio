@@ -29,7 +29,7 @@ export default {
 
 <template>
 
-<div class="container-fluid">
+<div class="container-fluid container-jumbo">
     <div class="row">
         <div class="col-6 d-flex justify-content-center top">
             <div>
@@ -60,8 +60,8 @@ export default {
 <style lang="scss">
 @use "../../styles/partials/variables.scss" as *;
 
-.container-fluid {
-    background-color: $gray;
+.container-jumbo {
+    background: linear-gradient(#1b1b1b, #333333);
     color: white;
     
     .top {
