@@ -1,11 +1,13 @@
 <script>
 import AppJumbo from './AppJumbo.vue';
 import AppProjects from './AppProjects.vue';
+import AppFramework from './AppFramework.vue';
 
 export default {
     components: {
         AppJumbo,
-        AppProjects
+        AppProjects,
+        AppFramework
 
     }
 }
@@ -14,6 +16,7 @@ export default {
 <template>
     <AppJumbo/>
     <AppProjects/>
+    <AppFramework/>
     
 </template>
 

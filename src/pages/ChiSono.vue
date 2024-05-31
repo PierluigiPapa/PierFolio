@@ -14,11 +14,11 @@ export default {
 <template>
   <div class="container-chi">
     <div class="row row-blue">
-      <h1 class="hello mt-5 mb-1">Piacere, <span class="pier fw-bold">Pierluigi!</span></h1>
-      <div class="col-6 d-flex justify-content-center ps-5 mt-5">
+      <h1 class="hello" style="margin-bottom: 30px; margin-top: 30px;">Piacere, <span class="pier fw-bold">Pierluigi!</span></h1>
+      <div class="col-6 d-flex justify-content-center ps-5 mt-3">
         <div class="fs-5 mb-5">
-          <span class="text-light">Sono nato a <span class="gray">Brindisi</span>, una città marittima dell' <span class="gray">Italia</span> meridionale, nell'
-            estate del <span class="gray fs-5">1992</span>. Dopo aver preso il <span class="gray">diploma</span> di <span class="gray">maturità scientifica</span>, 
+          <span class="text-light">Sono nato a <span class="gray">Brindisi</span>, una città marittima dell'<span class="gray">Italia</span> meridionale, nell'estate del 
+            <span class="gray fs-5">1992</span>. Dopo aver preso il <span class="gray">diploma</span> di <span class="gray">maturità scientifica</span>, 
             inizio gli studi <span class="gray">universitari</span>, iscrivendomi alla facoltà di <span class="gray">Beni Culturali</span> di <span class="gray">Lecce</span>, 
             spinto dalla <span class="gray">passione</span> per la <span class="gray">storia</span>, in particolare per quella <span class="gray">medievale</span> e per la 
             <span class="gray">cultura</span>. Qui, ho avuto il primo <span class="gray">approccio</span> con il mondo della <span class="gray">programmazione web</span>, 
@@ -31,13 +31,13 @@ export default {
       </div>
       
       <div class="col-6 d-flex justify-content-center">
-        <img src="@/assets/images/Pierluigi_2.jpg" style="width: 350px; height: 450px; object-fit: cover; border-radius: 5%;" class="mt-5 mb-5">
+        <img src="@/assets/images/Pierluigi_2.jpg" style="width: 300px; height: 340px; object-fit: cover; border-radius: 5%; margin-top: 10px; margin-bottom: 30px;">
       </div>
     </div>
 
     <div class="row row-1">
       <div class="col-6 d-flex justify-content-center">
-        <h1 class="text-light">Foto da scegliere</h1>
+        <h1 class="text-light">Foto da scattare</h1>
       </div>
 
       <div class="col-6 d-flex justify-content-center ps-5 mt-5">
@@ -48,7 +48,7 @@ export default {
             di <span class="blue">Boolean</span>, dalla durata di sei mesi. È stata un'esperienza <span class="blue">formativa</span>, non solo perché 
             ho imparato alcuni dei più importanti <span class="blue">linguaggi di programmazione</span> e 
             <span class="blue">framework front-end e back-end</span>: <span class="blue">HTML5</span>, <span class="blue">CSS</span>, 
-            <span class="blue">JavaScript</span>,<span class="blue">Bootstrap</span>, <span class="blue">VueJS</span>, 
+            <span class="blue">JavaScript</span>, <span class="blue">Bootstrap</span>, <span class="blue">VueJS</span>, 
             <span class="blue">Vite</span>, <span class="blue">SASS</span>, <span class="blue">PHP</span>, 
             <span class="blue">MySQL</span>, <span class="blue">Laravel</span>, ma anche a livello <span class="blue">professionale</span>, 
             in quanto la sua intensità, mi ha fatto comprendere cosa significa <span class="blue">essere</span> un programmatore web, grazie anche agli 
@@ -80,8 +80,8 @@ export default {
         </div>
       </div>
 
-      <div class="col-6 d-flex justify-content-center">
-        <img src="@/assets/images/Pierluigi_3.jpg" style="width: 350px; height: 450px; object-fit: cover; border-radius: 5%;" class="mt-5 mb-5">
+      <div class="col-6 d-flex justify-content-center ps-5 mt-3">
+        <img src="@/assets/images/Pierluigi_3.jpg" style="width: 300px; height: 300px; object-fit: cover; border-radius: 5%; margin-top: 30px; margin-bottom: 30px;">
       </div>
     </div>
   </div>
@@ -93,7 +93,6 @@ export default {
 
 .container-chi {
   text-align: justify;
-
   .row-blue {
     background: linear-gradient(#1D70A2, #173753);
   }
