@@ -85,21 +85,21 @@ export default defineComponent({
 
 .carousel__slide {
   opacity: 1;
-  transform: rotateY(0) scale(1); 
+  transform: rotateY(0) scale(0.8); 
 }
 
 .carousel__slide--active ~ .carousel__slide {
-  transform: rotateY(0) scale(1);  
+  transform: rotateY(0) scale(0.8);  
 }
 
 .carousel__slide--prev {
   opacity: 1;
-  transform: rotateY(0) scale(1); 
+  transform: rotateY(0) scale(0.8); 
 }
 
 .carousel__slide--next {
   opacity: 1;
-  transform: rotateY(0) scale(1);
+  transform: rotateY(0) scale(0.8);
 }
 
 .carousel__slide--active {
