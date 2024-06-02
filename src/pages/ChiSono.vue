@@ -1,4 +1,5 @@
 <script>
+
 export default {
   name: 'ChiSono',
   mounted() {
@@ -14,7 +15,7 @@ export default {
 <template>
   <div class="container-chi">
     <div class="row row-blue">
-      <h1 class="hello" style="margin-bottom: 30px; margin-top: 30px;">Piacere, <span class="pier fw-bold">Pierluigi!</span></h1>
+      <h1 class="hello">Piacere, <span class="pier fw-bold">Pierluigi!</span></h1>
       <div class="col-6 d-flex justify-content-center ps-5 mt-3">
         <div class="fs-5 mb-5">
           <span class="text-light">Sono nato a <span class="gray">Brindisi</span>, una città marittima dell'<span class="gray">Italia</span> meridionale, nell'estate del 
@@ -101,6 +102,8 @@ export default {
     font-size: 70px;
     color: white;
     text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
 
   .pier {

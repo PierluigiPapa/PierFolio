@@ -29,7 +29,7 @@ export default {
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <router-link :to="{ name: 'portfolio' }" class="nav-link">Portfolio</router-link>
             </li>
 
             <li class="nav-item">
