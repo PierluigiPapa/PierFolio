@@ -15,69 +15,100 @@ export default defineComponent({
     return {
       language: [
         {
-          logo: 'path/to/logo.png'
-        }
+          logo: '../src/assets/images/Html.png',
+        },
+        {
+          logo: '../src/assets/images/CSS.png',
+        },
+        {
+          logo: '../src/assets/images/Bootstrap.png',
+        },
+        {
+          logo: '../src/assets/images/JavaScript.png',
+        },
+        {
+          logo: '../src/assets/images/VueJS.png',
+        },
+        {
+          logo: '../src/assets/images/Vite.png',
+        },
+        {
+          logo: '../src/assets/images/SASS.png',
+        },
+        {
+          logo: '../src/assets/images/PHP.png',
+        },
+        {
+          logo: '../src/assets/images/MySQL.png',
+        },
+        {
+          logo: '../src/assets/images/Laravel_logo.png',
+        },
       ]
     }
   }
 })
 </script>
 
-
 <template>
+  <h1 class="text-center text-light fw-bold">Linguaggi e framework</h1>
 
-
-
-<!-- <Carousel :itemsToShow="3.95" :wrapAround="true" :transition="500">
-    <Slide v-for="slide in 10" :key="slide">
-        <div class="carousel__item">{{ slide }}</div>
-    </Slide>
-</Carousel> -->
-
+  <div class="row justify-content-center">
+    <div class="col mt-4 my-5">
+      <Carousel :itemsToShow="10.70" :wrapAround="true" :transition="500" :autoplay="3000">
+        <Slide v-for="(language, index) in language" :key="index">
+          <div class="carousel__item d-flex flex-column align-items-center me-6">
+            <img :src="language.logo" class="image">
+          </div>
+        </Slide>
+      </Carousel>
+    </div>
+  </div>
 </template>
-  
 
-<style scoped>
-
+<style lang="scss" scoped>
 .carousel__slide {
-    padding: 5px;
+  padding: 5px;
 }
 
 .carousel__viewport {
-    perspective: 2000px;
+  perspective: 2000px;
 }
 
 .carousel__track {
-    transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .carousel__slide--sliding {
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 .carousel__slide {
-    opacity: 0.9;
-    transform: rotateY(-20deg) scale(0.9);
+  opacity: 1;
+  transform: rotateY(0) scale(1); 
 }
 
 .carousel__slide--active ~ .carousel__slide {
-    transform: rotateY(20deg) scale(0.9);
+  transform: rotateY(0) scale(1);  
 }
 
-.carousel__slide--prev { 
-    opacity: 1;
-    transform: rotateY(-10deg) scale(0.95);
+.carousel__slide--prev {
+  opacity: 1;
+  transform: rotateY(0) scale(1); 
 }
 
 .carousel__slide--next {
-    opacity: 1;
-    transform: rotateY(10deg) scale(0.95);
+  opacity: 1;
+  transform: rotateY(0) scale(1);
 }
 
 .carousel__slide--active {
-    opacity: 1;
-    transform: rotateY(0) scale(1.1);
+  opacity: 1;
+  transform: rotateY(0) scale(1); 
 }
 
+.image {
+  width: 100px;
+  height: 100px;
+}
 </style>
-  
