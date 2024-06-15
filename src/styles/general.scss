@@ -15,3 +15,270 @@ body {
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
 }
+
+.btn-html {
+    background-color: #e54c21;
+    color: white;
+    font-weight: 600;
+    border: 3px solid white;
+    &:hover {
+      background-color: white;
+      color: #e54c21;
+      border: 3px solid #e54c21;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+  
+  .btn-css {
+    background-color: #214ce5;
+    color: white;
+    font-weight: 600;
+    border: 3px solid white;
+    &:hover {
+      background-color: white;
+      color: #214ce5;
+      border: 3px solid #214ce5;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+  
+  .btn-bootstrap {
+    background-color: #8c0bfc;
+    color: white;
+    font-weight: 600;
+    border: 3px solid white;
+    &:hover {
+      background-color: white;
+      color: #8c0bfc;
+      border: 3px solid #8c0bfc;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+  
+  .btn-javascript {
+    background-color: #f7e018;
+    color: black;
+    font-weight: 600;
+    border: 3px solid black;
+    &:hover {
+      background-color: black;
+      color: #f7e018;
+      border: 3px solid #f7e018;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+  
+  .btn-vuejs {
+    background-color: #3fb984;
+    color: #31475e;
+    font-weight: 600;
+    border: 3px solid #31475e;
+    &:hover {
+      background-color: #31475e;
+      color: #3fb984;
+      border: 3px solid #3fb984;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+  
+  .btn-vitejs {
+    background-color: #be31fe;
+    color: #ffd72a;
+    font-weight: 600;
+    border: 3px solid #ffd72a;
+    &:hover {
+      background-color: #ffd72a;
+      color: #be31fe;
+      border: 3px solid #be31fe;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+  
+  .btn-sass {
+    background-color: #ce679a;
+    color: white;
+    font-weight: 600;
+    border: 3px solid white;
+    &:hover {
+      background-color: white;
+      color: #ce679a;
+      border: 3px solid #ce679a;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+  
+  .btn-php {
+    background-color: #787cb4;
+    color: black;
+    font-weight: 600;
+    border: 3px solid black;
+    &:hover {
+      background-color: black;
+      color: #787cb4;
+      border: 3px solid #787cb4;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+  
+  .btn-mysql {
+    background-color: #00618a;
+    color: #e48e00;
+    font-weight: 600;
+    border: 3px solid #e48e00;
+    &:hover {
+      background-color: #e48e00;
+      color: #00618a;
+      border: 3px solid #00618a;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+  
+  .btn-laravel {
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border: 3px solid white;
+    &:hover {
+      background-color: white;
+      color: red;
+      border: 3px solid red;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+  
+  .btn-github {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border: 3px solid white;
+    &:hover {
+      background-color: white;
+      color: black;
+      border: 3px solid black;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+
+  .btn-braintree {
+    background-color: #001435;
+    color: white;
+    font-weight: 600;
+    border: 3px solid white;
+    &:hover {
+      background-color: white;
+      color: #001435;
+      border: 3px solid #001435;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+
+  .btn-tomtom {
+    background-color: #001435;
+    color: white;
+    font-weight: 600;
+    border: 3px solid white;
+    &:hover {
+      background-color: white;
+      color: #001435;
+      border: 3px solid #001435;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+
+  .btn-tomtom {
+    background-color: red;
+    color: black;
+    font-weight: 600;
+    border: 3px solid white;
+    &:hover {
+      background-color: white;
+      color: red;
+      border: 3px solid black;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+
+  .btn-pokemon {
+    background-color: #ffcb05;
+    color: #3b5ca8;
+    font-weight: 600;
+    border: 3px solid #3b5ca8;
+    &:hover {
+      background-color: #3b5ca8;
+      color: #ffcb05;
+      border: 3px solid #ffcb05;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+
+  .btn-desktop {
+    background-color: #b1b1b1;
+    color: black;
+    font-weight: 600;
+    border: 3px solid black;
+    &:hover {
+      background-color: black;
+      color: #b1b1b1;
+      border: 3px solid #b1b1b1;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+
+  .btn-tablet {
+    background-color: #84a4c9;
+    color: black;
+    font-weight: 600;
+    border: 3px solid black;
+    &:hover {
+      background-color: black;
+      color: #84a4c9;
+      border: 3px solid #84a4c9;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+
+  .btn-mobile {
+    background-color: #a0292d;
+    color: black;
+    font-weight: 600;
+    border: 3px solid black;
+    &:hover {
+      background-color: black;
+      color: #a0292d;
+      border: 3px solid #a0292d;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+
+  .btn-yugioh {
+    background-color: #ef2225;
+    color: black;
+    font-weight: 600;
+    border: 3px solid black;
+    &:hover {
+      background-color: black;
+      color: #ef2225;
+      border: 3px solid #ef2225;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+  

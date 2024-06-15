@@ -42,7 +42,7 @@ export default {
                     <a href="mailto:pierluigipapa9@gmail.com" target="_blank" class="social-icon"><font-awesome-icon icon="fa-solid fa-envelope" /></a>
 
                     <button type="button" class="btn" @click="scaricaCV">
-                        <font-awesome-icon icon="fa-solid fa-download" class="download"/> DOWNLOAD
+                        <font-awesome-icon icon="fa-solid fa-download" class="me-2"/> DOWNLOAD
                     </button>
                 </div>
 
@@ -122,7 +122,6 @@ export default {
             }
             
             .download {
-                margin-right: 10px;
                 font-size: 20px;
             }
         }

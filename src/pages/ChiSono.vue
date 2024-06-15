@@ -2,13 +2,6 @@
 
 export default {
   name: 'ChiSono',
-  mounted() {
-    setTimeout(() => {
-      const nameElement = document.querySelector('.pier');
-      nameElement.classList.add('visible');
-    }, 1000);
-
-  }
 }
 </script>
 
@@ -91,9 +84,9 @@ export default {
 <style lang="scss">
 @use "../styles/partials/variables.scss" as *;
 
-
 .container-chi {
   text-align: justify;
+  
   .row-blue {
     background: linear-gradient(#1D70A2, #173753);
   }
@@ -108,25 +101,19 @@ export default {
 
   .pier {
     color: #c4c4c4;
-    opacity: 0;
-    transition: opacity 0.5s ease; 
   }
-
-  .pier.visible {
-    opacity: 1;
-  };
 
   .gray {
     color: #c4c4c4;
   }
 
   .row-1 {
-    background: linear-gradient(#1b1b1b, #333333);
+    background: linear-gradient($gray, #333333);
   }
 
   .blue {
     color: #1D70A2;
   }
-  
 }
+
 </style>

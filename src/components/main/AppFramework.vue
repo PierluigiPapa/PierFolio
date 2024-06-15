@@ -46,6 +46,20 @@ export default defineComponent({
         },
       ]
     }
+  },
+  computed: {
+    itemsToShow() {
+      const width = window.innerWidth;
+      if (width >= 1200) {
+        return 10.70;
+      } else if (width >= 992) {
+        return 6;
+      } else if (width >= 768) {
+        return 3.6;
+      } else {
+        return 1.5;
+      }
+    }
   }
 })
 </script>
@@ -55,7 +69,7 @@ export default defineComponent({
 
   <div class="row justify-content-center">
     <div class="col mt-4 my-5">
-      <Carousel :itemsToShow="10.70" :wrapAround="true" :transition="500" :autoplay="3000">
+      <Carousel :itemsToShow="itemsToShow" :wrapAround="true" :transition="500" :autoplay="3000">
         <Slide v-for="(language, index) in language" :key="index">
           <div class="carousel__item d-flex flex-column align-items-center me-6">
             <img :src="language.logo" class="image">
