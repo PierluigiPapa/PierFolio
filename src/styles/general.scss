@@ -282,3 +282,17 @@ body {
     }
   }
   
+  .btn-video {
+    background-color: #ff7b5f;
+    color: black;
+    font-weight: 600;
+    border: 3px solid black;
+    &:hover {
+      background-color: black;
+      color: #ff7b5f;
+      border: 3px solid #ff7b5f;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s, filter 0.3s;
+    }
+  }
+  

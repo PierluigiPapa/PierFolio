@@ -18,10 +18,7 @@ export default {
     <h1 class="text-light text-center titolo fw-bold">BoolBnB</h1>
     
     <div class="col text-center">
-      <video width="600" controls style="border-radius: 5%;" class="titolo">
-        <source src="@/assets/videos/BoolBnB.mp4" type="video/mp4">
-      </video>
-      
+
       <div class="titolo giustificato ms-4 me-4 fs-5">
         <span class="text-light"> <span class="gray fst-italic">BoolBnB</span> è un portale di gestione degli alloggi, realizzato per il <span class="gray">progetto finale</span> 
           del corso in <span class="gray">Full-Stack Web Development</span> di <span class="gray">Boolean Careers</span> realizzato <span class="gray">in team</span>. 
@@ -52,19 +49,31 @@ export default {
           BoolBnB è <span class="gray">disponibile</span> sia per la versione <span class="gray">tablet</span> che quella <span class="gray">mobile.</span>
         </span>
       </div>
+
+      <h2 class="text-white fw-bold titolo ms-3 me-3">Video:</h2>
+      
+      <div class="d-flex justify-content-center col-12 titolo">
+        <a href="https://files.fm/f/3wdktas4ck">
+          <button type="button" class="btn btn-video titolo me-3 ms-3">
+            <font-awesome-icon icon="fa-solid fa-video" class="me-2"/>VIDEO
+          </button>
+        </a>
+      </div>
       
       <h2 class="text-white fw-bold titolo ms-3 me-3">Linguaggi e framework:</h2>
       
-      <div class="d-flex justify-content-center col-12 titolo">
-        <button type="button" class="btn btn-html titolo me-3 ms-3"><font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5</button>
-        <button type="button" class="btn btn-bootstrap titolo me-3 ms-3"><font-awesome-icon icon="fa-brands fa-bootstrap" class="me-2" />BOOTSTRAP</button>
-        <button type="button" class="btn btn-javascript titolo me-3 ms-3"><font-awesome-icon icon="fa-brands fa-js" class="me-2" />JAVASCRIPT</button>
-        <button type="button" class="btn btn-vuejs titolo me-3 ms-3"><font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS</button>
-        <button type="button" class="btn btn-vitejs titolo me-3 ms-3"><font-awesome-icon icon="fa-solid fa-cloud-bolt" class="me-2" />VITE</button>
-        <button type="button" class="btn btn-sass titolo me-3 ms-3"><font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS</button>
-        <button type="button" class="btn btn-php titolo me-3 ms-3"><font-awesome-icon icon="fa-brands fa-php" class="me-2" />PHP</button>
-        <button type="button" class="btn btn-mysql titolo me-3 ms-3"><font-awesome-icon icon="fa-solid fa-database" class="me-2"/>MYSQL</button>
-        <button type="button" class="btn btn-laravel titolo me-3 ms-3"><font-awesome-icon icon="fa-brands fa-laravel" class="me-2" />LARAVEL</button>
+      <div class="d-flex justify-content-center titolo col-xl-12">
+        <div class="titolo">
+          <button type="button" class="btn btn-html me-3 ms-3"><font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5</button>
+          <button type="button" class="btn btn-bootstrap me-3 ms-3"><font-awesome-icon icon="fa-brands fa-bootstrap" class="me-2" />BOOTSTRAP</button>
+          <button type="button" class="btn btn-javascript me-3 ms-3"><font-awesome-icon icon="fa-brands fa-js" class="me-2" />JAVASCRIPT</button>
+          <button type="button" class="btn btn-vuejs me-3 ms-3"><font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS</button>
+          <button type="button" class="btn btn-vitejs me-3 ms-3"><font-awesome-icon icon="fa-solid fa-cloud-bolt" class="me-2" />VITE</button>
+          <button type="button" class="btn btn-sass me-3 ms-3"><font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS</button>
+          <button type="button" class="btn btn-php me-3 ms-3"><font-awesome-icon icon="fa-brands fa-php" class="me-2" />PHP</button>
+          <button type="button" class="btn btn-mysql me-3 ms-3"><font-awesome-icon icon="fa-solid fa-database" class="me-2"/>MYSQL</button>
+          <button type="button" class="btn btn-laravel me-3 ms-3"><font-awesome-icon icon="fa-brands fa-laravel" class="me-2" />LARAVEL</button>
+        </div>
       </div>
       
       <h2 class="text-white fw-bold titolo ms-3 me-3">Api:</h2>
@@ -110,10 +119,7 @@ export default {
     <h1 class="text-light text-center titolo fw-bold">Card Pokémon</h1>
     
     <div class="col text-center">
-      <!-- <video width="600" controls style="border-radius: 5%;">
-        <source src="@/assets/videos/BoolBnB.mp4" type="video/mp4">
-      </video> -->
-      
+
       <div class="titolo giustificato ms-4 me-4 fs-5">
         <span class="text-light"> Ho trascorso la mia infanzia, guardando i <span class="blue">Pokémon</span> in televisione e giocandoci con il mio <span class="blue">Game Boy Color</span>, 
           di colore blu. Così ho deciso di realizzare una <span class="blue">card</span> Pokémon, utilizzando HTML, CSS e JavaScript. Per generare una card Pokémon, ho applicato 
@@ -144,6 +150,16 @@ export default {
         <a href="https://github.com/PierluigiPapa/proj-card-pokemon">
           <button type="button" class="btn btn-github titolo ms-3 me-3">
             <font-awesome-icon icon="fa-brands fa-github" class="me-2" />GITHUB
+          </button>
+        </a>
+      </div>
+
+      <h2 class="text-white fw-bold titolo ms-3 me-3">Video:</h2>
+      
+      <div class="d-flex justify-content-center col-12 titolo">
+        <a href="https://files.fm/f/3wdktas4ck">
+          <button type="button" class="btn btn-video titolo me-3 ms-3">
+            <font-awesome-icon icon="fa-solid fa-video" class="me-2"/>VIDEO
           </button>
         </a>
       </div>
@@ -197,21 +213,24 @@ export default {
     <h1 class="text-light text-center titolo fw-bold">Yu-gi-oh!</h1>
     
     <div class="col text-center">
-      <!-- <video width="600" controls style="border-radius: 5%;">
-        <source src="@/assets/videos/BoolBnB.mp4" type="video/mp4">
-      </video> -->
-      
       <div class="titolo giustificato ms-4 me-4 fs-5">
-        <span class="text-light"> Yu-Gi-Oh è uno dei tanti esercizi, assegnati per il corso in Full-Stack Web Development di Boolean Careers, per l'approccio iniziale a VueJS, 
-          cioè un framework di JavaScript. <br>
+        <span class="text-light"> <span class="gray fst-italic">Yu-Gi-Oh</span> è uno dei tanti esercizi, assegnati per il corso in <span class="gray">Full-Stack Web Development</span> 
+          di <span class="gray">Boolean Careers</span>, come approccio iniziale a <span class="gray">VueJS</span>, un <span class="gray">framework</span> di JavaScript. <br>
           <br>
-          Il primo approccio è stato quello di organizzare il lavoro, suddividendo in header (parte in alta del sito) e in main (parte centrale del sito), al cui interno ci sono dei 
-          componenti, ovvero dei blocchi di codice autonomi e riutilizzabili, che rappresentano parti specifiche dell'interfaccia utente. 
-          All'interno di questi componenti, ci sono: script, dove contiene la logica del componente; template, cioè la struttura, in HTML, del componente; style, ovvero lo
-          stile del componente specifico. <br>
+          
+          <span class="gray"></span>
+          Il primo passo è stato quello di <span class="gray">organizzare</span> il lavoro, suddividendolo in <span class="gray">header (parte in alto del sito)</span> e 
+          in <span class="gray">main (parte centrale del sito)</span>, al cui interno si trovano dei <span class="gray">componenti</span>. 
+          Essi sono dei <span class="gray">blocchi di codice autonomi</span> e <span class="gray">riutilizzabili</span>, che rappresentano 
+          <span class="gray">parti specifiche</span> dell' <span class="gray">interfaccia utente</span>. 
+          Nel loro interno, ci sono: <span class="gray">script</span>, che contiene la <span class="gray">logica</span> del componente; 
+          la <span class="gray">struttura</span> in HTML del componente <span class="gray">(template)</span>; <span class="gray">style</span>, 
+          ovvero lo <span class="gray">stile</span> del componente specifico. <br>
           <br>
-          Dopo aver realizzato lo stile delle carte, ho creato un input, per selezionare l'archetipo da mostrare nella pagina. Cliccando sull'archetipo, compariranno le tutte le carte.
-          Il tutto grazie all'API, cioè un insieme di definizioni, protocolli e strumenti che consentono a diversi software di comunicare tra di loro.
+          Dopo aver realizzato lo stile delle carte, ho creato un <span class="gray">input</span>, per <span class="gray">selezionare</span> l'<span class="gray">archetipo</span> 
+          da mostrare nella pagina. Cliccando sull'archetipo, compariranno le tutte le carte. Questo grazie all' <span class="gray">API</span>, un 
+          <span class="gray">insieme di definizioni, protocolli e strumenti</span> che consentono a <span class="gray">diversi software</span> di <span class="gray">comunicare</span>
+          tra di loro.
         </span>
       </div>
       
@@ -221,6 +240,16 @@ export default {
         <a href="https://github.com/PierluigiPapa/vite-yu-gi-oh">
           <button type="button" class="btn btn-github titolo">
             <font-awesome-icon icon="fa-brands fa-github" class="me-2" />GITHUB
+          </button>
+        </a>
+      </div>
+
+      <h2 class="text-white fw-bold titolo ms-3 me-3">Video:</h2>
+      
+      <div class="d-flex justify-content-center col-12 titolo">
+        <a href="https://files.fm/u/r33dgn3z3e#/view/g3dva7cj5s">
+          <button type="button" class="btn btn-video titolo me-3 ms-3">
+            <font-awesome-icon icon="fa-solid fa-video" class="me-2"/>VIDEO
           </button>
         </a>
       </div>
@@ -256,7 +285,7 @@ export default {
       <h2 class="text-white fw-bold titolo">Api:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
-        <a href="https://pokeapi.co/">
+        <a href="https://db.ygoprodeck.com/api/v7/cardinfo.php?num=20&offset=0">
           <button type="button" class="btn btn-yugioh titolo me-3 ms-3">
             <font-awesome-icon icon="fa-solid fa-dragon" class="me-2"/>YU-GI-OH!
           </button>
@@ -276,26 +305,46 @@ export default {
   
   <div class="row row-1">
     <h1 class="text-light text-center titolo fw-bold">MasterStudy</h1>
-    
     <div class="col text-center">
-      <!-- <video width="600" controls style="border-radius: 5%;">
-        <source src="@/assets/videos/BoolBnB.mp4" type="video/mp4">
-      </video> -->
-      
       <div class="titolo giustificato ms-4 me-4 fs-5">
-
+        <span class="text-light"> <span class="blue fst-italic">MasterStudy</span> è un portale di una business school, realizzato per il progetto di metà corso in 
+        <span class="blue">Full-Stack Web Development</span> di <span class="blue">Boolean Careers</span>, principalmente in <span class="blue">VueJS</span>, 
+        riguardante solo la parte <span class="blue">Front End</span>, ovvero la <span class="blue">parte visiva</span> del sito internet. <br>
+        <br>
+        La prima fase del lavoro è stata quella di <span class="blue">organizzarlo</span> e <span class="blue">suddividerlo</span>: in <span class="blue">header (parte superiore)</span>; 
+        <span class="blue">main (parte centrale)</span>; <span class="blue">footer (parte inferiore)</span>, al cui interno si trovano dei <span class="blue">componenti</span>, 
+        per <span class="blue">lavorare</span> in ogni parte del sito. <br>
+        <br>
+          
+        Attraverso il <span class="blue">countdown</span>, realizzato grazie a una serie di <span class="blue">funzioni JavaScript</span> un utente può decidere di usufruire dello 
+        <span class="blue">sconto</span>, cliccando sul bottone <span class="blue fst-italic">subscribe</span>. L'utente, per conoscere il <span class="blue">prezzo</span> di un 
+        singolo <span class="blue">corso</span>, basta <span class="blue">muovere</span> il <span class="blue">mouse sull'immagine</span>. Prima del footer, 
+        l'utente può <span class="blue">leggere</span> le <span class="blue">recensioni</span>, sempre tramite una funzione JavaScript, che permette di 
+        <span class="blue">scorrere</span> e di <span class="blue">ingrandire</span> le <span class="blue">foto profilo</span> degli <span class="blue">studenti</span>.
+          
+        </span>
       </div>
       
       <h2 class="text-white fw-bold titolo text-center ms-3 me-3">Link:</h2>
       
       <div class="d-flex justify-content-center text-center col-12 titolo">
-        <a href="https://github.com/PierluigiPapa/proj-card-pokemon">
+        <a href="https://github.com/PierluigiPapa/proj-html-vuejs">
           <button type="button" class="btn btn-github titolo ms-3 me-3">
             <font-awesome-icon icon="fa-brands fa-github" class="me-2" />GITHUB
           </button>
         </a>
       </div>
+
+      <h2 class="text-white fw-bold titolo ms-3 me-3">Video:</h2>
       
+      <div class="d-flex justify-content-center col-12 titolo">
+        <a href="https://files.fm/u/737wwx3kks#/view/zz7uq59hgs">
+          <button type="button" class="btn btn-video titolo me-3 ms-3">
+            <font-awesome-icon icon="fa-solid fa-video" class="me-2"/>VIDEO
+          </button>
+        </a>
+      </div>
+
       <h2 class="text-white fw-bold titolo ms-4">Linguaggi e framework:</h2>
       
       <div class="d-flex justify-content-center text-center col-12 titolo ms-3 me-3">
@@ -303,12 +352,16 @@ export default {
           <font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5
         </button>
         
-        <button type="button" class="btn btn-css titolo me-3">
-          <font-awesome-icon icon="fa-brands fa-css3-alt" class="me-2" />CSS
-        </button>
-        
-        <button type="button" class="btn btn-javascript titolo me-3">
+        <button type="button" class="btn btn-javascript titolo me-3 ms-3">
           <font-awesome-icon icon="fa-brands fa-js" class="me-2" />JAVASCRIPT
+        </button>
+
+        <button type="button" class="btn btn-vuejs titolo me-3 ms-3">
+          <font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS
+        </button>
+
+        <button type="button" class="btn btn-sass titolo me-3 ms-3">
+          <font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS
         </button>
       </div>
       
