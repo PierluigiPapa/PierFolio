@@ -33,11 +33,7 @@ export default {
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Progetti</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Competenze</a>
+              <router-link :to="{ name: 'progetti' }" class="nav-link">Progetti</router-link>
             </li>
 
             <li class="nav-item">
