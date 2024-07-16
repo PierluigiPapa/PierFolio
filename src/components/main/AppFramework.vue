@@ -53,9 +53,9 @@ export default defineComponent({
       if (width >= 1200) {
         return 10.70;
       } else if (width >= 992) {
-        return 6;
+        return 4;
       } else if (width >= 768) {
-        return 3.6;
+        return 3;
       } else {
         return 1.5;
       }

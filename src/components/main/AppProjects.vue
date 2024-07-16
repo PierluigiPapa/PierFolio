@@ -44,7 +44,7 @@ export default defineComponent({
   
     <div class="row justify-content-center">
       <div class="col mt-4 my-5">
-        <Carousel :items-to-show="3" :wrap-around="true" :autoplay="3000">
+        <Carousel :items-to-show="2.9" :wrap-around="true" :autoplay="3000">
           <Slide v-for="(project, index) in projects" :key="index">
             <div class="carousel__item d-flex flex-column align-items-center">
               <img :src="project.image" class="image-project"/>
