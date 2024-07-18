@@ -1,7 +1,6 @@
 <script>
 import { RouterLink } from 'vue-router';
 
-
 export default {
   name: 'AppHeader',
 }
@@ -39,10 +38,41 @@ export default {
             <li class="nav-item">
               <a class="nav-link" href="#">Contatti</a>
             </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item">
+                    <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item">
+                    <router-link :to="{ name: 'chisono' }" class="nav-link">Chi sono</router-link>
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item">
+                    <router-link :to="{ name: 'portfolio' }" class="nav-link">Portfolio</router-link>
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item">
+                    <router-link :to="{ name: 'progetti' }" class="nav-link">Progetti</router-link>
+                  </a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
-        <!-- // SECTION LINK_NAVBAR_RIGHT // -->
       </div>
+      <!-- // SECTION LINK_NAVBAR_RIGHT // -->
     </div>
   </nav>
 </template>
@@ -63,7 +93,17 @@ nav {
     color: #2892D7;
     transition: background-color 0.3s, color 0.3s, filter 0.3s;
   }
+  
+  .dropdown-menu,
+  .dropdown-item {
+    background-color: $gray;
+  }
+
+  .dropdown-item:hover,
+  .dropdown-menu:hover{
+    background-color: $gray;
+    color: #2892D7;
+    transition: background-color 0.3s, color 0.3s, filter 0.3s;
+  }
 }
-
-
 </style>
