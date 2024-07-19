@@ -9,70 +9,38 @@ export default {
 <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <!-- // SECTION LOGO_NAVBAR // -->
+      <!-- SECTION LOGO_NAVBAR -->
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Pierluigi Papa</a>
       </div>
-      <!-- // SECTION LOGO_NAVBAR // -->
+      <!-- SECTION LOGO_NAVBAR -->
 
-      <!-- // SECTION LINK_NAVBAR_RIGHT // -->
-      <div class="navbar-right">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
-            </li>
+      <!-- Toggle button for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <font-awesome-icon icon="fa-solid fa-bars" class="fa-bars text-light" />
+      </button>
 
-            <li class="nav-item">
-              <router-link :to="{ name: 'chisono' }" class="nav-link">Chi sono</router-link>
-            </li>
-
-            <li class="nav-item">
-              <router-link :to="{ name: 'portfolio' }" class="nav-link">Portfolio</router-link>
-            </li>
-
-            <li class="nav-item">
-              <router-link :to="{ name: 'progetti' }" class="nav-link">Progetti</router-link>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contatti</a>
-            </li>
-            
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <font-awesome-icon icon="fa-solid fa-bars" />
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item">
-                    <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
-                  </a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item">
-                    <router-link :to="{ name: 'chisono' }" class="nav-link">Chi sono</router-link>
-                  </a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item">
-                    <router-link :to="{ name: 'portfolio' }" class="nav-link">Portfolio</router-link>
-                  </a>
-                </li>
-
-                <li>
-                  <a class="dropdown-item">
-                    <router-link :to="{ name: 'progetti' }" class="nav-link">Progetti</router-link>
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+      <!-- SECTION LINK_NAVBAR_RIGHT -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link :to="{ name: 'chisono' }" class="nav-link">Chi sono</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link :to="{ name: 'portfolio' }" class="nav-link">Portfolio</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link :to="{ name: 'progetti' }" class="nav-link">Progetti</router-link>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contatti</a>
+          </li>
+        </ul>
       </div>
-      <!-- // SECTION LINK_NAVBAR_RIGHT // -->
+      <!-- SECTION LINK_NAVBAR_RIGHT -->
     </div>
   </nav>
 </template>
@@ -94,20 +62,15 @@ nav {
     transition: background-color 0.3s, color 0.3s, filter 0.3s;
   }
   
-  .dropdown-menu,
-  .dropdown-item {
-    background-color: $gray;
-  }
-
   .dropdown-item:hover,
-  .dropdown-menu:hover{
+  .dropdown-menu:hover {
     background-color: $gray;
     color: #2892D7;
     transition: background-color 0.3s, color 0.3s, filter 0.3s;
   }
-
-  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: white;
-  }
 }
+
+
+
+
 </style>
