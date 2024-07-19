@@ -41,7 +41,7 @@ export default {
             
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                <font-awesome-icon icon="fa-solid fa-bars" />
               </a>
               <ul class="dropdown-menu">
                 <li>
@@ -104,6 +104,10 @@ nav {
     background-color: $gray;
     color: #2892D7;
     transition: background-color 0.3s, color 0.3s, filter 0.3s;
+  }
+
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
   }
 }
 </style>
