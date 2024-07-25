@@ -68,6 +68,16 @@ nav {
     color: #2892D7;
     transition: background-color 0.3s, color 0.3s, filter 0.3s;
   }
+
+  path:hover {
+    color: #2892D7;
+  }
+
+  .navbar-toggler:focus {
+    outline: $navbar-toggler-focus-width solid $navbar-toggler-focus-color;
+    box-shadow: 0 0 0 $navbar-toggler-focus-width $navbar-toggler-focus-color;
+}
+
 }
 
 
