@@ -6,10 +6,10 @@ export default {
 </script>
 
 <template>
-  <div class="container-chi container">
+  <div class="container-chi">
     <div class="row row-blue">
       <h1 class="hello">Piacere, <span class="pier fw-bold">Pierluigi!</span></h1>
-      <div class="col-md-6 d-flex justify-content-center ps-md-5 mt-3">
+      <div class="col-6 d-flex justify-content-center ps-5 mt-3">
         <div class="fs-5 mb-5">
           <span class="text-light">Sono nato a <span class="gray">Brindisi</span>, una città marittima dell'<span class="gray">Italia</span> meridionale, nell'estate del 
             <span class="gray fs-5">1992</span>. Dopo aver preso il <span class="gray">diploma</span> di <span class="gray">maturità scientifica</span>, 
@@ -24,18 +24,18 @@ export default {
         </div>
       </div>
       
-      <div class="col-md-6 d-flex justify-content-center">
-        <img src="@/assets/images/Pierluigi_2.jpg" class="responsive-image">
+      <div class="col-6 d-flex justify-content-center">
+        <img src="@/assets/images/Pierluigi_2.jpg" style="width: 300px; height: 340px; object-fit: cover; border-radius: 5%; margin-top: 10px; margin-bottom: 30px;">
       </div>
     </div>
 
     <div class="row row-1">
-      <div class="col-12 d-flex justify-content-center">
+      <div class="col-6 d-flex justify-content-center">
         <h1 class="text-light">Foto da scattare</h1>
       </div>
 
-      <div class="col-md-6 d-flex justify-content-center ps-md-5 mt-5">
-        <div class="fs-5 mb-5 pe-md-5">
+      <div class="col-6 d-flex justify-content-center ps-5 mt-5">
+        <div class="fs-5 mb-5 pe-5">
           <span class="text-light">Essendo <span class="blue">appassionato</span> di <span class="blue">tecnologia</span> e soprattutto 
             alla <span class="blue">ricerca</span> di un <span class="blue">ambiente lavorativo stimolante</span> e 
             <span class="blue">dinamico</span>, ho deciso di iscrivermi al corso in <span class="blue">Full-Stack Web Development</span> 
@@ -54,7 +54,7 @@ export default {
     </div>
 
     <div class="row row-blue">
-      <div class="col-md-6 d-flex justify-content-center ps-md-5 mt-5">
+      <div class="col-6 d-flex justify-content-center ps-5 mt-5">
         <div class="fs-5 mb-5">
           <span class="text-light">Alla domanda: <span class="gray fst-italic">"Come ti descriveresti?"</span> Risponderei che sono un 
             ragazzo <span class="gray">dinamico</span>, <span class="gray">curioso</span>, <span class="gray">socievole</span>, 
@@ -74,8 +74,8 @@ export default {
         </div>
       </div>
 
-      <div class="col-md-6 d-flex justify-content-center ps-md-5 mt-3">
-        <img src="@/assets/images/Pierluigi_3.jpg" class="responsive-image">
+      <div class="col-6 d-flex justify-content-center ps-5 mt-3">
+        <img src="@/assets/images/Pierluigi_3.jpg" style="width: 300px; height: 300px; object-fit: cover; border-radius: 5%; margin-top: 30px; margin-bottom: 30px;">
       </div>
     </div>
   </div>
@@ -92,13 +92,18 @@ export default {
   }
 
   .hello {
-    font-size: 2.5rem;
+    font-size: 70px;
     color: white;
     text-align: center;
-    margin: 1.5rem 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
 
-  .pier, .gray {
+  .pier {
+    color: #c4c4c4;
+  }
+
+  .gray {
     color: #c4c4c4;
   }
 
@@ -109,39 +114,6 @@ export default {
   .blue {
     color: #1D70A2;
   }
-
-  .responsive-image {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 5%;
-    margin: 10px 0;
-  }
-
-  @media (max-width: 768px) {
-    .hello {
-      font-size: 2rem;
-    }
-
-    .fs-5 {
-      font-size: 1rem;
-    }
-
-    .ps-md-5, .pe-md-5 {
-      padding-left: 1rem !important;
-      padding-right: 1rem !important;
-    }
-  }
-
-  @media (max-width: 576px) {
-    .hello {
-      font-size: 1.5rem;
-    }
-
-    .fs-5 {
-      font-size: 0.875rem;
-    }
-  }
 }
+
 </style>
