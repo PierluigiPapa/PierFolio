@@ -9,8 +9,8 @@ export default {
   <div class="container-chi">
     <div class="row row-blue">
       <h1 class="hello">Piacere, <span class="pier fw-bold">Pierluigi!</span></h1>
-      <div class="col-6 d-flex justify-content-center ps-5 mt-3">
-        <div class="fs-5 mb-5">
+      <div class="col-xl-6 col-md-6 d-flex justify-content-center ps-5 mt-3">
+        <div class="fs-5 mb-5 me-5 mobile">
           <span class="text-light">Sono nato a <span class="gray">Brindisi</span>, una città marittima dell'<span class="gray">Italia</span> meridionale, nell'estate del 
             <span class="gray fs-5">1992</span>. Dopo aver preso il <span class="gray">diploma</span> di <span class="gray">maturità scientifica</span>, 
             inizio gli studi <span class="gray">universitari</span>, iscrivendomi alla facoltà di <span class="gray">Beni Culturali</span> di <span class="gray">Lecce</span>, 
@@ -24,18 +24,18 @@ export default {
         </div>
       </div>
       
-      <div class="col-6 d-flex justify-content-center">
+      <div class="col-xl-6 col-md-6 d-flex justify-content-center">
         <img src="@/assets/images/Pierluigi_2.jpg" style="width: 300px; height: 340px; object-fit: cover; border-radius: 5%; margin-top: 10px; margin-bottom: 30px;">
       </div>
     </div>
 
     <div class="row row-1">
-      <div class="col-6 d-flex justify-content-center">
+      <div class="col-xl-6 col-md-6 d-flex justify-content-center">
         <h1 class="text-light">Foto da scattare</h1>
       </div>
 
-      <div class="col-6 d-flex justify-content-center ps-5 mt-5">
-        <div class="fs-5 mb-5 pe-5">
+      <div class="col-xl-6 col-md-6 d-flex justify-content-center ps-5 mt-5">
+        <div class="fs-5 mb-5 me-5 mobile">
           <span class="text-light">Essendo <span class="blue">appassionato</span> di <span class="blue">tecnologia</span> e soprattutto 
             alla <span class="blue">ricerca</span> di un <span class="blue">ambiente lavorativo stimolante</span> e 
             <span class="blue">dinamico</span>, ho deciso di iscrivermi al corso in <span class="blue">Full-Stack Web Development</span> 
@@ -54,9 +54,9 @@ export default {
     </div>
 
     <div class="row row-blue">
-      <div class="col-6 d-flex justify-content-center ps-5 mt-5">
-        <div class="fs-5 mb-5">
-          <span class="text-light">Alla domanda: <span class="gray fst-italic">"Come ti descriveresti?"</span> Risponderei che sono un 
+      <div class="col-xl-6 col-md-6 d-flex justify-content-center ps-5 mt-5">
+        <div class="fs-5 mb-5 me-5 mobile">
+          <span class="text-light bottom">Alla domanda: <span class="gray fst-italic">"Come ti descriveresti?"</span> Risponderei che sono un 
             ragazzo <span class="gray">dinamico</span>, <span class="gray">curioso</span>, <span class="gray">socievole</span>, 
             <span class="gray">creativo</span>, a cui piace <span class="gray">lavorare in team</span> e 
             <span class="gray">attento ai dettagli</span>. Mi dedico con <span class="gray">passione</span> a <span class="gray">viaggiare</span>, 
@@ -69,13 +69,13 @@ export default {
             con gli <span class="gray">amici</span>, a <span class="gray">pallacanestro</span> e <span class="gray">allenandomi</span>, in 
             <span class="gray">palestra</span>. Inoltre, mi <span class="gray">diverto</span> a <span class="gray">giocare</span> ai 
             <span class="gray">videogiochi</span> e ai <span class="gray">giochi da tavolo</span>, stimolando la 
-            <span class="gray">logica</span>.
+            <span class="gray">logica</span>. 
           </span>
         </div>
       </div>
 
-      <div class="col-6 d-flex justify-content-center ps-5 mt-3">
-        <img src="@/assets/images/Pierluigi_3.jpg" style="width: 300px; height: 300px; object-fit: cover; border-radius: 5%; margin-top: 30px; margin-bottom: 30px;">
+      <div class="col-xl-6 col-md-6 d-flex justify-content-center">
+        <img src="@/assets/images/Pierluigi_3.jpg" style="width: 300px; height: 340px; object-fit: cover; border-radius: 5%; margin-top: 30px; margin-bottom: 30px;">
       </div>
     </div>
   </div>
@@ -113,6 +113,14 @@ export default {
 
   .blue {
     color: #1D70A2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile {
+    margin-right: 10px;
+    margin-left: 10px;
+
   }
 }
 
