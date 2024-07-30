@@ -375,10 +375,21 @@ export default {
       <h2 class="text-white fw-bold titolo">Competenze tecniche:</h2>
       
       <div class="titolo">
-        <button type="button" class="btn btn-html me-3 mb-3 ms-4"><font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5</button>
-        <button type="button" class="btn btn-javascript me-3 mb-3"><font-awesome-icon icon="fa-brands fa-js" class="me-2" />JS</button>
-        <button type="button" class="btn btn-vuejs me-3 mb-3"><font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS</button>
-        <button type="button" class="btn btn-sass me-3 mb-3 ms-4"><font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS</button>
+        <button type="button" class="btn btn-html me-3 mb-3 ms-4">
+          <font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5
+        </button>
+
+        <button type="button" class="btn btn-javascript me-3 mb-3">
+          <font-awesome-icon icon="fa-brands fa-js" class="me-2" />JS
+        </button>
+
+        <button type="button" class="btn btn-vuejs me-3 mb-3">
+          <font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS
+        </button>
+
+        <button type="button" class="btn btn-sass me-3 mb-3">
+          <font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS
+        </button>
       </div>
       
       <h2 class="text-white fw-bold titolo ms-3 me-3">Versioni disponibili:</h2>
