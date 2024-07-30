@@ -178,7 +178,7 @@ export default {
       <h2 class="text-white fw-bold titolo ms-3 me-3">Video:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
-        <a href="https://files.fm/f/3wdktas4ck">
+        <a href="https://youtu.be/zgue9pU7u5I">
           <button type="button" class="btn btn-video titolo me-3 ms-3">
             <font-awesome-icon icon="fa-solid fa-video" class="me-2"/>VIDEO
           </button>
@@ -193,7 +193,7 @@ export default {
             <font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5
           </button>
 
-          <button type="button" class="btn btn-css titolo ms-3 me-3">
+          <button type="button" class="btn btn-css ms-3 me-3">
             <font-awesome-icon icon="fa-brands fa-css3-alt" class="me-2" />CSS
           </button>
 
@@ -283,37 +283,39 @@ export default {
 
       <h2 class="text-white fw-bold titolo">Competenze tecniche:</h2>
       
-      <div class="titolo">
-        <button type="button" class="btn btn-html ms-3 mb-3">
+      <div class="d-flex justify-content-center">
+        <div class="titolo">
+          <button type="button" class="btn btn-html ms-3 mb-3">
             <font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5
-        </button>
-        
-        <button type="button" class="btn btn-css ms-3 mb-3">
-          <font-awesome-icon icon="fa-brands fa-css3-alt" class="me-2" />CSS
-        </button>
+          </button>
 
-        <button type="button" class="btn btn-javascript ms-3 mb-3">
-          <font-awesome-icon icon="fa-brands fa-js" class="me-2" />JS
-        </button>
+          <button type="button" class="btn btn-css ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-css3-alt" class="me-2" />CSS
+          </button>
 
-        <button type="button" class="btn btn-vuejs ms-3 mb-3">
-          <font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS
-        </button>
+          <button type="button" class="btn btn-javascript ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-js" class="me-2" />JS
+          </button>
 
-        <button type="button" class="btn btn-vitejs ms-3 mb-3">
-          <font-awesome-icon icon="fa-solid fa-cloud-bolt" class="me-2" />VITE
-        </button>
+          <button type="button" class="btn btn-vuejs ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS
+          </button>
 
-        <button type="button" class="btn btn-sass ms-3 mb-3">
-          <font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS
-        </button>
+          <button type="button" class="btn btn-vitejs ms-3 mb-3">
+            <font-awesome-icon icon="fa-solid fa-cloud-bolt" class="me-2" />VITE
+          </button>
+
+          <button type="button" class="btn btn-sass ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS
+          </button>
+        </div>
       </div>
       
-      <h2 class="text-white fw-bold titolo">Api:</h2>
+      <h2 class="text-white fw-bold titolo me-3 ms-3">Api:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
         <a href="https://db.ygoprodeck.com/api/v7/cardinfo.php?num=20&offset=0">
-          <button type="button" class="btn btn-yugioh me-3 ms-3">
+          <button type="button" class="btn btn-yugioh titolo me-3 ms-3">
             <font-awesome-icon icon="fa-solid fa-dragon" class="me-2"/>YU-GI-OH!
           </button>
         </a>
@@ -322,7 +324,7 @@ export default {
       <h2 class="text-white fw-bold titolo">Versioni disponibili:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
-        <button type="button" class="btn btn-desktop ms-3 me-3">
+        <button type="button" class="btn btn-desktop ms-3 me-3 titolo">
           <font-awesome-icon icon="fa-solid fa-desktop" class="me-2"/>PC
         </button>
       </div>
@@ -374,22 +376,24 @@ export default {
 
       <h2 class="text-white fw-bold titolo">Competenze tecniche:</h2>
       
-      <div class="titolo">
-        <button type="button" class="btn btn-html me-3 mb-3 ms-4">
-          <font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5
-        </button>
+      <div class="d-flex justify-content-center">
+        <div class="titolo">
+          <button type="button" class="btn btn-html ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5
+          </button>
 
-        <button type="button" class="btn btn-javascript me-3 mb-3">
-          <font-awesome-icon icon="fa-brands fa-js" class="me-2" />JS
-        </button>
+          <button type="button" class="btn btn-javascript ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-js" class="me-2" />JS
+          </button>
 
-        <button type="button" class="btn btn-vuejs me-3 mb-3">
-          <font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS
-        </button>
+          <button type="button" class="btn btn-vuejs ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS
+          </button>
 
-        <button type="button" class="btn btn-sass me-3 mb-3">
-          <font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS
-        </button>
+          <button type="button" class="btn btn-sass ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS
+          </button>
+        </div>
       </div>
       
       <h2 class="text-white fw-bold titolo ms-3 me-3">Versioni disponibili:</h2>
