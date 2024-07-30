@@ -17,7 +17,7 @@ export default {
   <div class="row row-blue">
     <h1 class="text-light text-center titolo fw-bold">BoolBnB</h1>
     
-    <div class="col text-center">
+    <div class="col-xl-12 text-center">
 
       <div class="titolo giustificato ms-4 me-4 fs-5">
         <span class="text-light"> <span class="gray fst-italic">BoolBnB</span> è un portale di gestione degli alloggi, realizzato per il <span class="gray">progetto finale</span> 
@@ -50,29 +50,55 @@ export default {
         </span>
       </div>
 
-      <h2 class="text-white fw-bold titolo ms-3 me-3">Video:</h2>
+      <h2 class="text-white fw-bold titolo">Video:</h2>
       
-      <div class="d-flex justify-content-center col-12 titolo">
-        <a href="https://files.fm/f/3wdktas4ck">
+      <div class="d-flex justify-content-center col-12">
+        <a href="https://youtu.be/zdr4tcAp8zk">
           <button type="button" class="btn btn-video titolo me-3 ms-3">
             <font-awesome-icon icon="fa-solid fa-video" class="me-2"/>VIDEO
           </button>
         </a>
       </div>
       
-      <h2 class="text-white fw-bold titolo ms-3 me-3">Linguaggi e framework:</h2>
+      <h2 class="text-white fw-bold titolo">Competenze tecniche:</h2>
       
-      <div class="d-flex justify-content-center titolo col-xl-12">
+      <div class="d-flex justify-content-center">
         <div class="titolo">
-          <button type="button" class="btn btn-html me-3 ms-3"><font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5</button>
-          <button type="button" class="btn btn-bootstrap me-3 ms-3"><font-awesome-icon icon="fa-brands fa-bootstrap" class="me-2" />BOOTSTRAP</button>
-          <button type="button" class="btn btn-javascript me-3 ms-3"><font-awesome-icon icon="fa-brands fa-js" class="me-2" />JAVASCRIPT</button>
-          <button type="button" class="btn btn-vuejs me-3 ms-3"><font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS</button>
-          <button type="button" class="btn btn-vitejs me-3 ms-3"><font-awesome-icon icon="fa-solid fa-cloud-bolt" class="me-2" />VITE</button>
-          <button type="button" class="btn btn-sass me-3 ms-3"><font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS</button>
-          <button type="button" class="btn btn-php me-3 ms-3"><font-awesome-icon icon="fa-brands fa-php" class="me-2" />PHP</button>
-          <button type="button" class="btn btn-mysql me-3 ms-3"><font-awesome-icon icon="fa-solid fa-database" class="me-2"/>MYSQL</button>
-          <button type="button" class="btn btn-laravel me-3 ms-3"><font-awesome-icon icon="fa-brands fa-laravel" class="me-2" />LARAVEL</button>
+          <button type="button" class="btn btn-html ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5
+          </button>
+
+          <button type="button" class="btn btn-bootstrap ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-bootstrap" class="me-2" />BOOTSTRAP
+          </button>
+
+          <button type="button" class="btn btn-javascript ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-js" class="me-2" />JS
+          </button>
+
+          <button type="button" class="btn btn-vuejs ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS
+          </button>
+
+          <button type="button" class="btn btn-vitejs ms-3 mb-3">
+            <font-awesome-icon icon="fa-solid fa-cloud-bolt" class="me-2" />VITE
+          </button>
+
+          <button type="button" class="btn btn-sass ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS
+          </button>
+
+          <button type="button" class="btn btn-php ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-php" class="me-2" />PHP
+          </button>
+
+          <button type="button" class="btn btn-mysql ms-3 mb-3">
+            <font-awesome-icon icon="fa-solid fa-database" class="me-2"/>MYSQL
+          </button>
+
+          <button type="button" class="btn btn-laravel ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-laravel" class="me-2" />LARAVEL
+          </button>
         </div>
       </div>
       
@@ -80,13 +106,13 @@ export default {
       
       <div class="d-flex justify-content-center col-12 titolo">
         <a href="https://www.braintreepayments.com/">
-          <button type="button" class="btn btn-braintree titolo me-3 ms-3">
+          <button type="button" class="btn btn-braintree titolo">
             <font-awesome-icon icon="fa-solid fa-credit-card" class="me-2"/>BRAINTREE
           </button>
         </a>
         
         <a href="https://developer.tomtom.com/">
-          <button type="button" class="btn btn-tomtom titolo me-3 ms-3">
+          <button type="button" class="btn btn-tomtom titolo ms-3">
             <font-awesome-icon icon="fa-solid fa-globe" class="me-2" />TOMTOM
           </button>
         </a>
@@ -95,22 +121,17 @@ export default {
       <h2 class="text-white fw-bold titolo ms-3 me-3">Versioni disponibili:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
-        <a href="https://www.braintreepayments.com/">
-          <button type="button" class="btn btn-desktop titolo ms-3 me-3">
-            <font-awesome-icon icon="fa-solid fa-desktop" class="me-2"/>PC
-          </button>
-        </a>
+        <button type="button" class="btn btn-desktop titolo">
+          <font-awesome-icon icon="fa-solid fa-desktop" class="me-2"/>PC
+        </button>
         
-        <a href="https://www.braintreepayments.com/">
-          <button type="button" class="btn btn-tablet titolo me-3 ms-3">
-            <font-awesome-icon icon="fa-solid fa-tablet" class="me-2"/>TABLET
-          </button>
-        </a>
-        
-        <a href="https://developer.tomtom.com/">
-          <button type="button" class="btn btn-mobile titolo me-3 ms-3">
-            <font-awesome-icon icon="fa-solid fa-mobile" class="me-2" />MOBILE</button>
-          </a>
+        <button type="button" class="btn btn-tablet titolo ms-3 me-3">
+          <font-awesome-icon icon="fa-solid fa-tablet" class="me-2"/>TABLET
+        </button>
+
+        <button type="button" class="btn btn-mobile titolo">
+          <font-awesome-icon icon="fa-solid fa-mobile" class="me-2" />MOBILE
+        </button>
       </div>
     </div>
   </div>
@@ -164,20 +185,22 @@ export default {
         </a>
       </div>
 
-      <h2 class="text-white fw-bold titolo ms-4">Linguaggi e framework:</h2>
+      <h2 class="text-white fw-bold titolo ms-3 me-3">Competenze tecniche:</h2>
+      
+      <div class="d-flex justify-content-center titolo">
+        <div class="titolo">
+          <button type="button" class="btn btn-html">
+            <font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5
+          </button>
 
-      <div class="d-flex justify-content-center text-center col-12 titolo ms-3 me-3">
-        <button type="button" class="btn btn-html titolo me-3 ms-3">
-          <font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5
-        </button>
-        
-        <button type="button" class="btn btn-css titolo me-3">
-          <font-awesome-icon icon="fa-brands fa-css3-alt" class="me-2" />CSS
-        </button>
-        
-        <button type="button" class="btn btn-javascript titolo me-3">
-          <font-awesome-icon icon="fa-brands fa-js" class="me-2" />JAVASCRIPT
-        </button>
+          <button type="button" class="btn btn-css titolo ms-3 me-3">
+            <font-awesome-icon icon="fa-brands fa-css3-alt" class="me-2" />CSS
+          </button>
+
+          <button type="button" class="btn btn-javascript">
+            <font-awesome-icon icon="fa-brands fa-js" class="me-2" />JS
+          </button>
+        </div>
       </div>
       
       <h2 class="text-white fw-bold titolo me-3 ms-3">Api:</h2>
@@ -193,19 +216,23 @@ export default {
       <h2 class="text-white fw-bold titolo ms-3 me-3">Versioni disponibili:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
-        <button type="button" class="btn btn-desktop titolo me-3 ms-3">
-          <font-awesome-icon icon="fa-solid fa-desktop" class="me-2"/>PC
-        </button>
-          
-        <button type="button" class="btn btn-tablet titolo me-3 ms-3">
-          <font-awesome-icon icon="fa-solid fa-tablet" class="me-2"/>TABLET
-        </button>
+        <a href="https://www.braintreepayments.com/">
+          <button type="button" class="btn btn-desktop titolo">
+            <font-awesome-icon icon="fa-solid fa-desktop" class="me-2"/>PC
+          </button>
+        </a>
         
-        <button type="button" class="btn btn-mobile titolo me-3 ms-3">
-          <font-awesome-icon icon="fa-solid fa-mobile" class="me-2" />MOBILE
-        </button>
+        <a href="https://www.braintreepayments.com/">
+          <button type="button" class="btn btn-tablet titolo ms-3 me-3">
+            <font-awesome-icon icon="fa-solid fa-tablet" class="me-2"/>TABLET
+          </button>
+        </a>
+        
+        <a href="https://developer.tomtom.com/">
+          <button type="button" class="btn btn-mobile titolo">
+            <font-awesome-icon icon="fa-solid fa-mobile" class="me-2" />MOBILE</button>
+          </a>
       </div>
-        
     </div>
   </div>
   
@@ -254,30 +281,30 @@ export default {
         </a>
       </div>
 
-      <h2 class="text-white fw-bold titolo">Linguaggi e framework:</h2>
+      <h2 class="text-white fw-bold titolo">Competenze tecniche:</h2>
       
-      <div class="d-flex justify-content-center text-center col-12 titolo">
-        <button type="button" class="btn btn-html titolo me-3 ms-3">
-          <font-awesome-icon icon="fa-brands fa-html5" class="me-2"/> HTML5
+      <div class="titolo">
+        <button type="button" class="btn btn-html ms-3 mb-3">
+            <font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5
         </button>
-
-        <button type="button" class="btn btn-css titolo me-3 ms-3">
+        
+        <button type="button" class="btn btn-css ms-3 mb-3">
           <font-awesome-icon icon="fa-brands fa-css3-alt" class="me-2" />CSS
         </button>
 
-        <button type="button" class="btn btn-javascript titolo me-3 ms-3">
-          <font-awesome-icon icon="fa-brands fa-js" class="me-2" />JAVASCRIPT
+        <button type="button" class="btn btn-javascript ms-3 mb-3">
+          <font-awesome-icon icon="fa-brands fa-js" class="me-2" />JS
         </button>
 
-        <button type="button" class="btn btn-vuejs titolo me-3 ms-3">
+        <button type="button" class="btn btn-vuejs ms-3 mb-3">
           <font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS
         </button>
-        
-        <button type="button" class="btn btn-vitejs titolo me-3 ms-3">
+
+        <button type="button" class="btn btn-vitejs ms-3 mb-3">
           <font-awesome-icon icon="fa-solid fa-cloud-bolt" class="me-2" />VITE
         </button>
-        
-        <button type="button" class="btn btn-sass titolo me-3 ms-3">
+
+        <button type="button" class="btn btn-sass ms-3 mb-3">
           <font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS
         </button>
       </div>
@@ -286,7 +313,7 @@ export default {
       
       <div class="d-flex justify-content-center col-12 titolo">
         <a href="https://db.ygoprodeck.com/api/v7/cardinfo.php?num=20&offset=0">
-          <button type="button" class="btn btn-yugioh titolo me-3 ms-3">
+          <button type="button" class="btn btn-yugioh me-3 ms-3">
             <font-awesome-icon icon="fa-solid fa-dragon" class="me-2"/>YU-GI-OH!
           </button>
         </a>
@@ -295,7 +322,7 @@ export default {
       <h2 class="text-white fw-bold titolo">Versioni disponibili:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
-        <button type="button" class="btn btn-desktop titolo ms-3 me-3">
+        <button type="button" class="btn btn-desktop ms-3 me-3">
           <font-awesome-icon icon="fa-solid fa-desktop" class="me-2"/>PC
         </button>
       </div>
@@ -338,31 +365,20 @@ export default {
       <h2 class="text-white fw-bold titolo ms-3 me-3">Video:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
-        <a href="https://files.fm/u/737wwx3kks#/view/zz7uq59hgs">
+        <a href="https://youtu.be/jbv-Gv-bwHg">
           <button type="button" class="btn btn-video titolo me-3 ms-3">
             <font-awesome-icon icon="fa-solid fa-video" class="me-2"/>VIDEO
           </button>
         </a>
       </div>
 
-      <h2 class="text-white fw-bold titolo ms-4">Linguaggi e framework:</h2>
+      <h2 class="text-white fw-bold titolo">Competenze tecniche:</h2>
       
-      <div class="d-flex justify-content-center text-center col-12 titolo ms-3 me-3">
-        <button type="button" class="btn btn-html titolo me-3 ms-3">
-          <font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5
-        </button>
-        
-        <button type="button" class="btn btn-javascript titolo me-3 ms-3">
-          <font-awesome-icon icon="fa-brands fa-js" class="me-2" />JAVASCRIPT
-        </button>
-
-        <button type="button" class="btn btn-vuejs titolo me-3 ms-3">
-          <font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS
-        </button>
-
-        <button type="button" class="btn btn-sass titolo me-3 ms-3">
-          <font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS
-        </button>
+      <div class="titolo">
+        <button type="button" class="btn btn-html me-3 mb-3 ms-4"><font-awesome-icon icon="fa-brands fa-html5" class="me-2"/>HTML5</button>
+        <button type="button" class="btn btn-javascript me-3 mb-3"><font-awesome-icon icon="fa-brands fa-js" class="me-2" />JS</button>
+        <button type="button" class="btn btn-vuejs me-3 mb-3"><font-awesome-icon icon="fa-brands fa-vuejs" class="me-2" />VUEJS</button>
+        <button type="button" class="btn btn-sass me-3 mb-3 ms-4"><font-awesome-icon icon="fa-brands fa-sass" class="me-2" />SASS</button>
       </div>
       
       <h2 class="text-white fw-bold titolo ms-3 me-3">Versioni disponibili:</h2>
@@ -405,5 +421,7 @@ export default {
 .blue {
     color: #1D70A2;
 }
+
+
 
 </style>
