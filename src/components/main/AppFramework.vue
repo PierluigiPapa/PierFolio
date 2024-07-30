@@ -65,7 +65,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <h1 class="text-center text-light fw-bold">Linguaggi e framework</h1>
+  <h1 class="text-center text-light fw-bold">Competenze tecniche</h1>
 
   <div class="row justify-content-center">
     <div class="col mt-4 my-5">

@@ -60,7 +60,7 @@ export default {
         </a>
       </div>
       
-      <h2 class="text-white fw-bold titolo">Competenze tecniche:</h2>
+      <h2 class="text-white fw-bold titolo">Linguaggi:</h2>
       
       <div class="d-flex justify-content-center">
         <div class="titolo">
@@ -185,7 +185,7 @@ export default {
         </a>
       </div>
 
-      <h2 class="text-white fw-bold titolo ms-3 me-3">Competenze tecniche:</h2>
+      <h2 class="text-white fw-bold titolo ms-3 me-3">Linguaggi:</h2>
       
       <div class="d-flex justify-content-center titolo">
         <div class="titolo">
@@ -274,14 +274,14 @@ export default {
       <h2 class="text-white fw-bold titolo ms-3 me-3">Video:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
-        <a href="https://files.fm/u/r33dgn3z3e#/view/g3dva7cj5s">
+        <a href="https://youtu.be/SDeq3mG8X7Y">
           <button type="button" class="btn btn-video titolo me-3 ms-3">
             <font-awesome-icon icon="fa-solid fa-video" class="me-2"/>VIDEO
           </button>
         </a>
       </div>
 
-      <h2 class="text-white fw-bold titolo">Competenze tecniche:</h2>
+      <h2 class="text-white fw-bold titolo">Linguaggi:</h2>
       
       <div class="d-flex justify-content-center">
         <div class="titolo">
@@ -374,7 +374,7 @@ export default {
         </a>
       </div>
 
-      <h2 class="text-white fw-bold titolo">Competenze tecniche:</h2>
+      <h2 class="text-white fw-bold titolo">Linguaggi:</h2>
       
       <div class="d-flex justify-content-center">
         <div class="titolo">
