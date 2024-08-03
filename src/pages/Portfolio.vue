@@ -118,7 +118,7 @@ export default {
         </a>
       </div>
       
-      <h2 class="text-white fw-bold titolo ms-3 me-3">Versioni disponibili:</h2>
+      <h2 class="text-white fw-bold titolo ms-3 me-3">Versioni:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
         <button type="button" class="btn btn-desktop titolo">
@@ -213,7 +213,7 @@ export default {
         </a>
       </div>
       
-      <h2 class="text-white fw-bold titolo ms-3 me-3">Versioni disponibili:</h2>
+      <h2 class="text-white fw-bold titolo ms-3 me-3">Versioni:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
         <a href="https://www.braintreepayments.com/">
@@ -321,7 +321,7 @@ export default {
         </a>
       </div>
 
-      <h2 class="text-white fw-bold titolo">Versioni disponibili:</h2>
+      <h2 class="text-white fw-bold titolo">Versioni:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
         <button type="button" class="btn btn-desktop ms-3 me-3 titolo">
@@ -396,7 +396,7 @@ export default {
         </div>
       </div>
       
-      <h2 class="text-white fw-bold titolo ms-3 me-3">Versioni disponibili:</h2>
+      <h2 class="text-white fw-bold titolo ms-3 me-3">Versioni:</h2>
       
       <div class="d-flex justify-content-center col-12 titolo">
         <button type="button" class="btn btn-desktop titolo me-3 ms-3">

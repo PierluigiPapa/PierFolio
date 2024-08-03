@@ -30,6 +30,9 @@ export default defineComponent({
           logo: '../src/assets/images/VueJS.png',
         },
         {
+          logo: '../src/assets/images/AngularLogo.png',
+        },
+        {
           logo: '../src/assets/images/Vite.png',
         },
         {
@@ -42,7 +45,13 @@ export default defineComponent({
           logo: '../src/assets/images/MySQL.png',
         },
         {
+          logo: '../src/assets/images/PostgreSQL.png',
+        },
+        {
           logo: '../src/assets/images/Laravel_logo.png',
+        },
+        {
+          logo: '../src/assets/images/SpringBootLogo.png',
         },
       ]
     }
