@@ -27,6 +27,9 @@ export default defineComponent({
           logo: '../src/assets/images/JavaScript.png',
         },
         {
+          logo: '../src/assets/images/TypeScript_Logo.png',
+        },
+        {
           logo: '../src/assets/images/VueJS.png',
         },
         {
