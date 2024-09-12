@@ -52,7 +52,7 @@ export default {
 
       <h2 class="text-white fw-bold titolo">Video:</h2>
       
-      <div class="d-flex justify-content-center col-12">
+      <div class="d-flex justify-content-center">
         <a href="https://youtu.be/zdr4tcAp8zk">
           <button type="button" class="btn btn-video titolo me-3 ms-3">
             <font-awesome-icon icon="fa-solid fa-video" class="me-2"/>VIDEO
