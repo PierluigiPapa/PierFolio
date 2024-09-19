@@ -61,115 +61,135 @@ export default {
 <style lang="scss">
 
 @use "../../styles/partials/variables.scss" as *;
-  
+
 .container-jumbo {
     background: linear-gradient(#1b1b1b, #333333);
     color: white;
-    
-    .top {
-        margin-top: 150px;
-        margin-bottom: 150px;
+
+  .top {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .name {
+    color: #1D70A2;
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    white-space: nowrap;
+  }
+
+  .name.visible,
+  .job.visible {
+    opacity: 1;
+  }
+
+  .job {
+    font-size: 40px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  .social-networks {
+    margin-top: 20px;
+
+    .social-icon {
+        color: white;
+        margin-right: 15px;
+        font-size: 30px;
         
-        @media (max-width: 768px) {
-            margin-top: 50px;
-            margin-bottom: 50px;
+        &:hover {
+            color: #2892D7;
+            transition: background-color 0.3s, color 0.3s, filter 0.3s;
         }
     }
     
-    h1 {
-        font-size: 50px;
-        
-        @media (max-width: 768px) {
-            font-size: 30px;
-        }
-    }
-    
-    .name {
+    .btn {
+        margin-left: 30px;
+        background-color: white;
+        border: 3px solid #1D70A2;
+        font-weight: 600;
         color: #1D70A2;
-        font-size: 50px;
-        font-weight: bold;
-        opacity: 0;
-        transition: opacity 0.5s ease; 
         
-        @media (max-width: 768px) {
-            font-size: 30px;
-        }
-    }
-    
-    .name.visible,
-    .job.visible {
-        opacity: 1;
-    }
-    
-    .job {
-        font-size: 40px;
-        opacity: 0;
-        transition: opacity 0.5s ease;
-        
-        @media (max-width: 768px) {
-            font-size: 25px;
-        }
-    }
-    
-    .social-networks {
-        margin-top: 20px;
-        
-        .social-icon {
-            color: white;
-            margin-right: 15px;
-            font-size: 30px;
-            
-            @media (max-width: 768px) {
-                font-size: 20px;
-                margin-right: 10px;
-            }
-            
-            &:hover {
-                color: #2892D7;
-                transition: background-color 0.3s, color 0.3s, filter 0.3s;
-            }
-        }
-        
-        .btn {
-            margin-left: 30px;
-            background-color: white;
-            border: 3px solid #1D70A2;
+        &:hover {
+            background-color: #1D70A2;
+            border: 3px solid white;
             font-weight: 600;
-            color: #1D70A2;
-            
-            @media (max-width: 768px) {
-                font-size: 14px;
-                margin-left: 15px;
-                padding: 5px 10px;
-            }
-            
-            &:hover {
-                background-color: #1D70A2;
-                border: 3px solid white;
-                font-weight: 600;
-                color: white;
-                transition: background-color 0.3s, color 0.3s, filter 0.3s;
-            }
-            
-            .download {
-                font-size: 20px;
-                
-                @media (max-width: 768px) {
-                    font-size: 16px;
-                }
-            }
+            color: white;
+            transition: background-color 0.3s, color 0.3s, filter 0.3s;
         }
-    }
-    
-    img {
-        width: 40%;
-        animation: flicker 1s infinite;
         
-        @media (max-width: 768px) {
-            width: 60%;
+        .download {
+            font-size: 20px;
         }
     }
 }
 
+img {
+    width: 40%;
+    animation: flicker 1s infinite;
+}
+
+  // Tablet responsive (min-width: 768px)
+  @media (max-width: 992px) {
+    .top {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .name {
+      font-size: 30px;
+    }
+
+    .job {
+      font-size: 25px;
+    }
+
+    img {
+      width: 50%;
+    }
+  }
+
+  // Mobile responsive (min-width: 576px)
+  @media (max-width: 768px) {
+    .top {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .name {
+      font-size: 30px;
+    }
+
+    .job {
+      font-size: 20px;
+    }
+
+    .social-networks .social-icon {
+      font-size: 25px;
+    }
+
+    .btn {
+      margin-left: 20px;
+    }
+
+    img {
+      width: 60%;
+    }
+  }
+}
 </style>
   
